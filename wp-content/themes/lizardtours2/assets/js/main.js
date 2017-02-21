@@ -116,7 +116,7 @@ var $btnMenu = $('#btn-menu'),
           
           $.ajax({
                 type: 'GET',
-                url: '/lizardtours/api/taxonomy/get_taxonomy_posts/?taxonomy=tour_category&slug='+ selectedCategory,//'/api/get_posts/?post_type=tour&count=-1',
+                url: '/api/taxonomy/get_taxonomy_posts/?taxonomy=tour_category&slug='+ selectedCategory,//'/api/get_posts/?post_type=tour&count=-1',
                 
                 success: function(data){
                    //console.log(data)
@@ -151,7 +151,7 @@ var $btnMenu = $('#btn-menu'),
           
           $.ajax({
                 type: 'GET',
-                url: '/lizardtours/api/get_posts/?post_type=product&count=-1',
+                url: '/api/get_posts/?post_type=product&count=-1',
                 
                 success: function(data){
                    //console.log(data)
