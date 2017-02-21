@@ -296,9 +296,9 @@ function woocommerce_support() {
 /*function manage_available_gateways( $gateways ) {
 		unset($gateways['wc-booking-gateway']);
 		return $gateways;
-	}*/
+	}
 
-add_filter( 'woocommerce_available_payment_gateways', 'manage_available_gateways' );
+add_filter( 'woocommerce_available_payment_gateways', 'manage_available_gateways' );*/
 /**
  * Implement the Custom Header feature.
  */
