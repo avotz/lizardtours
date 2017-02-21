@@ -293,10 +293,10 @@ function woocommerce_support() {
     add_theme_support( 'woocommerce' );
 }
 
-function manage_available_gateways( $gateways ) {
+/*function manage_available_gateways( $gateways ) {
 		unset($gateways['wc-booking-gateway']);
 		return $gateways;
-	}
+	}*/
 
 add_filter( 'woocommerce_available_payment_gateways', 'manage_available_gateways' );
 /**
