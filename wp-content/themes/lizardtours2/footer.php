@@ -16,7 +16,7 @@
            
             <a href="#" class="footer__partner__link" title="Lizard Tours"><img src="<?php echo get_template_directory_uri();  ?>/img/logo.png" /></a>
             <div class="counter">
-                <a href="https://info.flagcounter.com/PeG5"><img src="http://s10.flagcounter.com/countxl/PeG5/bg_D1DCFF/txt_305EC9/border_6388FF/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+                <a href="https://info.flagcounter.com/PeG5"><img src="https://s10.flagcounter.com/countxl/PeG5/bg_D1DCFF/txt_305EC9/border_6388FF/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
             </div>
         </div>
         
