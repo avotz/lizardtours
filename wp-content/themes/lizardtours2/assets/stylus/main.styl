@@ -1,0 +1,1127 @@
+@import "nib"
+@import "normalize.styl"
+@import "icons.styl"
+
+
+verde = #549E51
+azul = #4570B2
+oscuro = #191F26
+gris = #777777
+naranja = #FD6100
+
+*
+	box-sizing border-box
+
+body
+	font-family 'Open Sans', sans-serif
+	font-size 80%
+	line-height 30px
+	background #FFF
+	&.mfp-open
+	&.mfp-zoom-out-cur
+		.projects
+		.header
+		.main
+		.footer
+		.banner		 
+			filter: blur(5px);
+			-webkit-filter: blur(5px);
+
+
+ul
+	margin 0
+	padding 0
+	
+
+a
+	text-decoration none
+	transition all .5s ease
+
+h1
+h2
+h3
+h4
+h5
+	margin-top 0
+	font-weight 400
+h1
+	line-height 45px
+
+img
+	max-width 100%
+	height auto
+
+input[type="text"]
+input[type="email"]
+input[type="number"]
+input[type="date"]
+input[type="tel"]
+select
+textarea
+	width 100%
+	height 34px 
+	border 1px solid #c3c3c3
+	padding .5rem
+
+textarea
+	height 90px;
+
+/*input[type="submit"]
+	background-color gris
+	color white 
+	padding .5rem 2rem
+	text-transform uppercase
+	border none
+	outline none*/
+/*#fullpage
+	display none*/
+iframe
+	width 100%
+.hidden
+	display none
+.wpcf7-submit
+.btn
+	padding .5rem .8rem
+	display inline-block
+	color #000
+	transition all .5s ease
+	border 1px solid amarillo
+	//box-shadow 0 1px 1px rgba(0, 0, 0, .75)
+	font-weight 700
+	text-transform uppercase
+	background-color white
+	border none
+	&:hover
+		background-color verde
+		border-color #d6d6d6
+		box-shadow 0 1px 1px verde
+		color white
+.wpcf7-submit
+.btn-azul
+	background-color azul
+	border-color azul
+	color #FFF
+	
+.right
+	right 0
+.left
+	left 0
+.txt-center
+	text-align center
+.color 
+	background-color turquesa
+.orange 
+	background-color naranja
+.dark
+	background-color gris
+.white
+	background-color white
+	
+.no-padding
+	padding-left 0 !important
+	padding-right 0 !important
+	
+.transparent
+	background-color transparent
+.btn
+	padding .5rem .8rem
+	border-radius 6px
+	display inline-block
+	color white
+	transition all .5s ease
+	border 1px solid #229b60
+	box-shadow 0 1px 1px #216e47
+	
+	&:hover
+		background-color white
+		border-color #d6d6d6
+		box-shadow 0 1px 1px gris
+		color gris
+
+.inner
+	max-width 1600px
+	margin 0 auto
+	position relative
+	padding-left 1rem
+	padding-right 1rem
+.rdfa-breadcrumb
+	color verde
+	a 
+		color azul
+	p
+		margin 0
+		padding .5rem
+		font-size .92em
+@media screen and (min-width:900px)
+	body
+		font-size 100%
+.header 
+	&__top
+		height 109px
+		overflow hidden
+		.inner 
+			background-image url('./img/top.jpg')
+			background-position center center
+			//background-size cover
+			height 109px
+		&__info
+			float right
+			padding 1.15rem 0
+			background: rgba(0,0,0,.35);
+			&__link
+				padding  0 .5rem
+				text-align center
+				color white//#666
+				position relative
+				display none
+				&:before
+					content ''
+					display block
+					width 1px 
+					height 70%
+					background-color #aaa
+					position absolute
+					top 15%
+				&:nth-child(3)
+					color naranja
+				&:first-child
+					&:before
+						display none	
+				&:last-child
+					display block
+				&:hover
+					color #222
+				i 
+					display block
+					font-size 3rem
+					margin-left 1.5rem
+					
+				span
+					display block
+					margin-top -5px
+					margin-left 1.5rem
+					font-weight 300
+					font-size .9rem
+				
+	&__logo
+		display none
+		width 480px//150px
+		padding-top 5px
+		float left
+		position relative
+		span
+			position absolute
+			width 100%
+			bottom 0
+			right 0
+			text-align center
+			color verde
+			font-weight bold
+			text-transform uppercase
+			font-size 14px
+			
+		&__small
+			text-align center
+			display block
+			width 136px
+			margin 0 auto
+	&__menu
+		display none
+		background azul
+		position absolute
+		left 0
+		right 0
+		top 45px
+		z-index 9999
+		text-align center
+		
+		li
+		//&__item
+			border-bottom 1px solid white
+			&:first-child
+				border-top 1px solid white
+				
+		.wpmenucartli
+			background-color naranja
+			a
+				color white
+		a
+		//&__link
+			color #d9d9d9
+			display block
+			padding .5rem 0
+			&:hover
+				background-color #000
+				color white
+	.sub-menu
+	&__submenu
+		a
+		//&__link
+			color white
+	&__btn-menu__container
+		background-color #222
+		padding 0 1rem
+		overflow hidden
+		position relative
+		color white
+		height 45px
+		
+		
+		span
+			float left
+			line-height 45px
+		
+	
+	&__btn-menu 
+		color white
+		font-size 1.2rem
+		background-color transparent
+		border none
+		position absolute
+		right 0
+		left 0
+		width 100%
+		height 100%
+		outline none
+		i
+			float right
+			margin-right 10px
+
+@media screen and (min-width:690px)
+	.header
+		&__logo
+			display block
+			&__small
+				display none
+@media screen and (min-width:900px)
+	.header
+		&__top
+			&__info
+				&__link
+					display inline-block
+					&:last-child
+						display inline-block
+		&__menu 
+			display block !important
+			position static
+			background-color #222
+			text-align left
+			
+			&__ul
+				position relative
+				
+			li
+			//&__item
+				display inline-block
+				border none
+				position relative
+				&:first-child
+					border-top none
+			.wpmenucartli
+				position absolute
+				right 0
+				
+			a
+			//&__link
+				padding .2rem .8rem//2.5rem
+				font-weight 300
+				
+		.sub-menu
+		&__submenu
+			display none
+			position absolute
+			z-index 9999
+			background-color white
+			padding 0 2rem
+			width 270px
+			text-align left
+			li
+				display block
+			a
+				display block
+				color #777
+				font-weight 300
+				padding .5rem 0
+				&:before
+					content '\e04d';
+					display inline-block
+					font-family 'bolson'
+					margin-right .5rem
+				&:hover
+					color azul
+					background-color transparent
+				
+				
+		&__btn-menu__container
+			display none
+@media screen and (min-width:1200px)
+	.header
+		&__menu 
+			a
+				padding .2rem 2rem
+@media screen and (min-width:1368px)
+	.header
+		&__menu 
+			a
+				padding .2rem 2.5rem
+
+/*@media screen and (min-width:1200px)
+	.header
+		&__menu 
+			a
+			&__link
+				padding .2rem 2.5rem//1.8rem
+@media screen and (min-width:1350px)
+	.header
+		&__menu 
+			a
+			&__link
+				padding .2rem 2.9rem //2.4rem
+@media screen and (min-width:1600px)
+	.header
+		&__menu 
+			a
+			&__link
+				padding .2rem 3.5rem//3.5rem*/			
+.intro
+	&__banner 
+		width 100%
+		position relative
+		img
+			position relative
+			z-index 0 
+		&__slide
+			width 100%
+			height 100%
+			position relative
+			&__link
+				background-color rgba(0, 0, 0, .65)
+				font-size 1.5rem
+				font-weight 300
+				color white
+				position absolute
+				right 0
+				padding 1rem
+				bottom 3rem
+				z-index 99
+		&__pager
+			position absolute
+			bottom 1rem
+			z-index 999
+			left 0
+			right 0
+			text-align center
+			
+			span
+				color #d9d9d9
+				font-size 1.5rem
+				padding .3rem
+				cursor pointer
+			.cycle-pager-active
+				color #222
+	&__featured
+		position relative
+		#scroll-down
+			position absolute
+			bottom 1rem
+			left 0
+			right 0
+			//background-color naranja//rgba(0,0,0,.55)
+			width 100%
+			text-align center
+			z-index	99
+			a
+				border 1px solid #fff
+				background-color rgba(naranja, 0.75)
+				display inline-block
+				padding 5px 15px
+				border-radius 50%
+				color #fff
+				margin-bottom 0 //5px
+				line-height 100%
+				animation-name floating
+				animation-duration 1.5s
+				animation-iteration-count infinite
+				font-size 52px
+			small
+				font-size 12px
+				display block
+				color white
+		&__item
+			position relative
+			margin-bottom .3rem
+			&:last-child
+				margin-bottom 0
+			&:hover
+				.intro__featured__item__img
+					img 
+						transform scale(1.2)
+			&__img
+				padding-bottom 37%
+				img
+					width 100%
+					position absolute
+					transition all .5s ease
+					display block
+					
+					
+			&__title
+				position absolute
+				right 0
+				bottom 1.5rem
+				background rgba(0, 0, 0, .65)
+				color white
+				z-index 2
+				padding .5rem
+				font-size 1.8rem
+				font-weight 300
+			&__link
+				position absolute
+				left 0
+				right 0
+				top 0
+				bottom 0
+				width 100%
+				height 100%
+				z-index 2
+	
+@media screen and (min-width:900px)
+	.intro
+		overflow hidden
+		&__banner 
+			width 70%
+			float left
+			margin-right 1px
+			overflow hidden
+			img 
+				min-width 1050px
+			&__slide
+				&__link
+					bottom 6rem
+					font-size 2rem
+			&__pager
+				bottom 2rem
+		&__featured
+			width 29.6%
+			float right
+			&__item
+				height 150px	
+				&__img
+					padding-bottom 30%
+					img 
+						height 100%
+@media screen and (min-width:1600px)
+	.intro
+		&__banner 
+			width 75%
+			img 
+				min-width 1200px
+			&__slide
+				&__link
+					bottom 12rem
+			&__pager
+				bottom 8rem	
+		&__featured
+			width 24.6%
+
+.contact
+	
+	&__map
+		width 100%
+		iframe
+			width 100%
+	&__form
+		padding 1rem
+		background-color verde
+		color white
+		.entry-title
+			margin-top 0 !important 
+	.form-contact__item-short
+		margin-bottom 1rem
+	.atbtn
+		margin-top .5rem
+		display block
+		i
+			display none
+	ul 
+		//margin-left 35px
+		list-style: none
+		// li 
+		// 	margin-bottom .5rem	
+.tour-category
+	&-title
+		margin-bottom 0
+		text-align center
+		color white
+		//text-transform uppercase
+		background-color verde
+		
+	&-items
+		width 100%
+		margin-top .5rem
+	&-item 
+		width 100%
+		min-height 150px
+		display flex
+		flex-wrap wrap
+		justify-content space-between
+		margin-bottom 1rem
+		box-shadow 0 2px 3px rgba(0,0,0,0.09)
+		/*&-img-container
+		&-info 
+			display inline-block*/
+		.readmore
+			background-color verde !important
+			margin-top .5rem !important
+		&-img-container
+			width 100%//35%
+		&-info
+			width 100%//65%
+			padding 1rem
+			display flex
+			flex-wrap wrap
+			justify-content space-between
+			//overflow hidden
+			//height 250px
+		&-img 
+			background-size cover
+			background-position center center
+			width 100%
+			height 250px
+		&-title
+			color azul
+			a 
+				color azul
+				&:hover
+					color verde
+		&-summary
+			width 100%//70%
+		&-prices
+			width 100%//25%
+			text-align center
+			padding 1rem
+			.price
+				font-size 1.5rem //2rem
+				display block
+				font-weight 900
+			.per-person
+				display block
+				font-size 12px
+	&-form-request
+		width 100%
+		background-color azul
+		color white
+		height 100%
+		input
+		textarea
+		select
+			border none	
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button,
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt
+	background-color naranja
+	color white
+	&:hover
+		background-color verde
+		color white	
+.woocommerce-message
+	border-top-color verde
+.woocommerce-info
+	a
+		color verde
+.cart_item
+	.product-name
+		a 
+			color verde	
+.page 
+	.entry-title
+		margin-top 1rem
+@media screen and (min-width:900px)
+	.contact
+		overflow hidden
+		&__map
+			width 70%
+			float left
+			margin-right 1px
+			overflow hidden
+			height 615px
+		&__form
+			width 29.6%
+			float right
+			height 615px
+	.tour-category
+		
+		&-items
+			width 70% !important
+			float left
+			margin-right 1px
+			min-height 615px
+			height 615px
+			//overflow-y scroll
+		&-item
+			&-img-container
+				width 33%//35%
+			&-info
+				width 67%
+			&-summary
+				width 70%
+			&-prices
+				width 25%
+		&-form-request
+			width 29.6%
+			float right
+			min-height 615px
+@media screen and (min-width:1368px)
+	.tour-category
+		&-item
+			&-img-container
+				width 35%
+			&-info
+				width 65%
+			&-prices
+				.price 
+					font-size 2rem
+			
+@media screen and (min-width:1600px)
+	.contact
+		&__map
+			width 75%
+		&__form
+			width 24.6%
+	.tour-category
+		
+		&-items
+			width 75% !important
+		&-form-request
+			width 24.6%
+
+.widget-area
+	padding 1rem
+
+.woocommerce
+	> #container
+		max-width 1600px
+		margin 0 auto
+		position relative
+		/*padding-left 1rem
+		padding-right 1rem*/
+	p.price
+		margin-top 0 
+		
+	.woocommerce-breadcrumb
+		//background-color verde
+		//display none
+		color verde
+		margin-top 0//.5rem
+		margin-bottom 0
+		padding .5rem
+		a 
+			color azul
+	.related
+		> h2
+			text-align center
+			border-bottom 2px solid verde
+			padding 1rem
+		.products
+			display flex
+			flex-wrap wrap
+			justify-content space-between
+			
+			.tours-item
+				text-align center
+				.woocommerce-LoopProduct-link
+					color azul
+				h3
+					margin-bottom 5px
+					
+.wc-bookings-booking-form
+	position relative		
+	.form-field
+		display block
+		width 100% 
+		input[type=number]
+			width 100%
+	.wc_bookings_field_start_date
+		position: relative; 
+@media screen and (min-width:768px)
+	.wc-bookings-booking-form	
+		.form-field
+			display inline-block
+			width 20%
+		.wc_bookings_field_start_date
+			display inline-block
+			border none
+			
+		
+.tour-carousel
+	margin-top 1rem
+	.owl-nav
+		font-size 4rem
+		color white
+	.item
+		display block
+		background-size cover
+		background-position center center
+		background-repeat: no-repeat
+		position relative
+		height 300
+		a 
+			position absolute
+			left 0
+			right 0
+			top 0
+			bottom 0
+				
+	.owl-prev	
+	.owl-next
+		position absolute
+		position absolute
+		top 50%
+		transform translate(0, -50%)
+		opacity .8
+		&:hover
+			opacity 1	
+	.owl-prev
+		left 1rem
+	.owl-next
+		right 1rem
+.woocommerce div.product div.images, .woocommerce div.product div.summary
+	>h1 
+		padding-top 2rem
+.woocommerce div.product div.images div.thumbnails
+	padding-top 0
+.woocommerce #content div.product div.thumbnails a,
+.woocommerce div.product div.thumbnails a,
+.woocommerce-page #content div.product div.thumbnails a,
+.woocommerce-page div.product div.thumbnails a
+	width 100%
+	
+	img
+		width 100%
+		height 200px
+		
+@media screen and (min-width: 400px)
+	.woocommerce #content div.product div.thumbnails a,
+	.woocommerce div.product div.thumbnails a,
+	.woocommerce-page #content div.product div.thumbnails a,
+	.woocommerce-page div.product div.thumbnails a
+		
+		img
+			height 300px
+	.tour-carousel
+		.item
+			height 300px
+@media screen and (min-width: 1170px)
+	.woocommerce #content div.product div.thumbnails a,
+	.woocommerce div.product div.thumbnails a,
+	.woocommerce-page #content div.product div.thumbnails a,
+	.woocommerce-page div.product div.thumbnails a
+		
+		img
+			height 400px
+	.tour-carousel
+		.item
+			height 400px
+
+@media screen and (min-width: 1300px)
+	.woocommerce #content div.product div.thumbnails a,
+	.woocommerce div.product div.thumbnails a,
+	.woocommerce-page #content div.product div.thumbnails a,
+	.woocommerce-page div.product div.thumbnails a
+		
+		img
+			height 500px
+		
+	.tour-carousel
+		.item
+			height 500px
+
+@media screen and (min-width: 1680px)
+	.woocommerce #content div.product div.thumbnails a,
+	.woocommerce div.product div.thumbnails a,
+	.woocommerce-page #content div.product div.thumbnails a,
+	.woocommerce-page div.product div.thumbnails a
+		
+		img
+			height 600px
+	.tour-carousel
+		.item
+			height 600px
+
+@media screen and (min-width: 570px)
+	.entry-summary
+		div[itemprop="description"]
+			clear both
+		/*div[itemprop="offers"]
+			float left*/
+		/*.cart
+			//float left
+			margin-left 1rem*/
+
+.about 
+	&-container
+		display flex
+		flex-wrap wrap
+		justify-content space-between
+	&-item 
+		width 33.33%
+		overflow hidden
+		margin-bottom 1rem
+		&-icon 
+			font-size 3rem !important
+			float left
+			margin-right 1rem
+			
+		&-info 
+			float left
+			width 70%
+			h3 
+				margin-bottom 0
+				color azul
+			/*p 
+				margin-top 0*/
+
+.product-description-accordion-button
+	display block
+	background-color verde
+	color white
+	padding .5rem
+	cursor pointer
+	text-align center
+	margin-bottom 0
+	text-transform uppercase
+	font-size 1rem
+	&:hover
+		background-color azul
+.product-description-accordion-content
+	background-color #e3e3e3
+	padding 1rem
+
+.request-popup
+	//border-bottom 13px solid azul
+	//border-right 13px solid azul
+	box-shadow 0px 0px 10px rgba(0, 0, 0, .75) 
+
+.gallery
+	display flex
+	flex-wrap wrap
+	justify-content space-around
+	.gallery-item
+		width 100%
+		height 230px
+		overflow hidden
+		&:hover
+			img 
+				transform scale(1.2)
+		img
+			width 100%
+			height 230px
+			transition all .5s ease
+			
+			
+@media screen and (min-width: 640px)
+	.gallery
+		.gallery-item
+			width 50%
+			height 230px
+		
+@media screen and (min-width: 900px)
+	.gallery
+		.gallery-item
+			width 33.33%
+			height 230px
+			img 
+				height 230px
+@media screen and (min-width: 1200px)
+	.gallery
+		.gallery-item
+			height 300px
+			img 
+				height 300px
+@media screen and (min-width: 1368px)
+	.gallery
+		.gallery-item
+			width 25%
+ 
+.footer
+	padding .5rem 0
+	text-align center
+	clear both
+	&__partner
+		margin-bottom 1rem
+		&__link
+			width 100px
+			display inline-block//inline-block
+			vertical-align middle
+			padding 0 .2rem
+			margin-top -15px
+			/*img 
+				width 100%*/
+		.counter
+			width 100px 
+			display inline-block
+			vertical-align middle
+	&__social
+		&__link
+			font-size 1.5rem
+			padding .2rem .5rem
+			color white
+			background-color #000
+			display inline-block
+			//line-height 0
+			&:first-child
+				padding .2rem .8rem
+			&:hover
+				background-color gris
+	&__copyright
+		color #666
+		a 
+			color #666
+			font-size 1.5rem
+			display inline-block
+			vertical-align middle
+@media screen and (min-width:900px)
+	.footer
+		&__partner
+			float left
+			margin-bottom 0
+		&__social
+			float right
+		&__copyright
+			font-size 12px	
+
+
+.social-widgets
+	//padding-top 3rem
+	//padding-bottom 3rem
+	.widSSP
+		width 100% !important
+	&-container
+		display flex
+		flex-wrap wrap
+		justify-content space-between
+	&-item
+		width 100%
+		.counter
+			margin-top 1rem
+			text-align center
+		h3
+			position relative
+			padding-top .5rem
+			&:before
+				position absolute
+				display block
+				content ""
+				width 40px
+				height 3px
+				left 0
+				top 0
+				background-color turquesa
+		iframe
+			width 100%
+@media screen and (min-width: 640px)
+	.social-widgets
+		&-item
+			width 50%
+@media screen and (min-width: 1024px)
+	.social-widgets
+		&-item
+			width 30%
+			
+
+
+.mini-contact
+	position fixed
+	right 1%
+	bottom -278px
+	overflow visible
+	z-index 999
+	display none
+	
+	
+	&.open
+		bottom 0
+	
+	&__btn 
+		background-color naranja
+		color white
+		padding .3rem 1rem
+		font-weight bold
+		display block
+		position relative
+		cursor pointer
+		bottom 0
+		transition all .5s ease
+		opacity 1
+		text-align center
+		
+		i 
+			margin-left .5rem
+			display inline-block
+			font-size 1.2rem
+			vertical-align middle
+			font-weight	bold
+		span 
+			display inline-block
+		&.open
+			i 
+				&:before
+					content '\f107'
+			
+	
+	&__form
+		opacity 1
+		position relative
+		border 1px solid #d6d6d6
+		background-color white
+		width 250px
+		overflow hidden
+		
+		
+		input[type="text"],
+		input[type="email"],
+		textarea
+			width 100%
+			margin-bottom .5rem
+		textarea
+			height 100px
+			resize none
+		input[type="submit"]
+			background-color azul
+			color white
+			border 0
+			outline 0
+			float right
+			padding .5rem
+			margin-bottom 1rem
+		.response
+			font-weight bold
+			&.message-success
+				color verde
+			&.message-error
+				color red
+		&__container
+			padding 1rem
+		
+	&__header
+		background-color azul
+		color white
+		text-align center 
+		padding .5rem		
+	&__message 
+		line-height 25px
+		text-align center
+		padding .5rem
+	&__close
+		position absolute
+		left -35px
+		background-color azul
+		color white
+		padding .5rem
+		cursor pointer
+		display block
+		border-radius 50%
+
+@media screen and (min-width: 768px)
+	.mini-contact
+		display block	

@@ -1,0 +1,248 @@
+# Translation of Plugins - WooCommerce Menu Cart - Stable (latest release) in English (Canada)
+# This file is distributed under the same license as the Plugins - WooCommerce Menu Cart - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-11-06 07:27:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: en_CA\n"
+"Project-Id-Version: Plugins - WooCommerce Menu Cart - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "www.wpovernight.com/"
+msgstr "www.wpovernight.com/"
+
+#. Author of the plugin/theme
+msgid "Jeremiah Prummer, Ewout Fernhout"
+msgstr "Jeremiah Prummer, Ewout Fernhout"
+
+#. Description of the plugin/theme
+msgid "Extension for WooCommerce that places a cart icon with number of items and total cost in the menu bar. Activate the plugin, set your options and you're ready to go! Will automatically conform to your theme styles."
+msgstr "Extension for WooCommerce that places a cart icon with number of items and total cost in the menu bar. Activate the plugin, set your options and you're ready to go! Will automatically conform to your theme styles."
+
+#. Plugin URI of the plugin/theme
+msgid "www.wpovernight.com/plugins"
+msgstr "www.wpovernight.com/plugins"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Menu Cart"
+msgstr "WooCommerce Menu Cart"
+
+#: wp-menu-cart.php:414
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d item"
+msgstr[1] "%d items"
+
+#: wp-menu-cart.php:413
+msgid "Start shopping"
+msgstr "Start shopping"
+
+#: wp-menu-cart.php:412
+msgid "View your shopping cart"
+msgstr "View your shopping cart"
+
+#: wp-menu-cart.php:199
+msgid "An old version of WooCommerce Menu Cart is currently activated, you need to disable or uninstall it for WP Menu Cart to function properly"
+msgstr "An old version of WooCommerce Menu Cart is currently activated, you need to disable or uninstall it for WP Menu Cart to function properly."
+
+#: wp-menu-cart.php:194
+msgid "Hide this notice"
+msgstr "Hide this notice."
+
+#: wp-menu-cart.php:193
+msgid "WP Menu Cart Pro could not detect an active shop plugin. Make sure you have activated at least one of the supported plugins."
+msgstr "WP Menu Cart Pro could not detect an active shop plugin. Make sure you have activated at least one of the supported plugins."
+
+#: includes/wpmenucart-settings.php:710
+msgid "Add to Menu"
+msgstr "Add to Menu"
+
+#: includes/wpmenucart-settings.php:705
+msgid "Menu Item"
+msgstr "Menu Item"
+
+#: includes/wpmenucart-settings.php:642
+msgid "Additional icons are only available in"
+msgstr "Additional icons are only available in"
+
+#: includes/wpmenucart-settings.php:442 includes/wpmenucart-settings.php:482
+#: includes/wpmenucart-settings.php:524 includes/wpmenucart-settings.php:563
+#: includes/wpmenucart-settings.php:600
+msgid "This feature only available in"
+msgstr "This feature only available in"
+
+#: includes/wpmenucart-settings.php:373
+msgid "Customize my CSS!"
+msgstr "Customize my CSS!"
+
+#: includes/wpmenucart-settings.php:371
+msgid "We can do that for you! Just click the button below to check it out."
+msgstr "We can do that for you! Just click the button below to check it out."
+
+#: includes/wpmenucart-settings.php:369
+msgid "Want your CSS customized?"
+msgstr "Want your CSS customized?"
+
+#: includes/wpmenucart-settings.php:366
+msgid "Buy Now"
+msgstr "Buy Now"
+
+#: includes/wpmenucart-settings.php:365
+msgid "Need to see more? %sClick here%s to check it out. Add a product to your cart and watch what happens!"
+msgstr "Need to see more? %sClick here%s to check it out. Add a product to your cart and watch what happens!"
+
+#: includes/wpmenucart-settings.php:361
+msgid "Put the cart anywhere with the [wpmenucart] shortcode"
+msgstr "Put the cart anywhere with the [wpmenucart] shortcode"
+
+#: includes/wpmenucart-settings.php:360
+msgid "Automatic updates on any great new features"
+msgstr "Automatic updates on any great new features."
+
+#: includes/wpmenucart-settings.php:359
+msgid "Ability to add a custom css class"
+msgstr "Ability to add a custom css class."
+
+#: includes/wpmenucart-settings.php:358
+msgid "Ability to add cart + flyout to an <strong>unlimited</strong> amount of menus"
+msgstr "Ability to add cart + flyout to an <strong>unlimited</strong> amount of menus."
+
+#: includes/wpmenucart-settings.php:357
+msgid "A fully featured cart details flyout"
+msgstr "A fully featured cart details flyout"
+
+#: includes/wpmenucart-settings.php:356
+msgid "A choice of 14 icons"
+msgstr "A choice of 14 icons"
+
+#: includes/wpmenucart-settings.php:353
+msgid "Go Pro with Menu Cart Pro. Includes all the great standard features found in this free version plus:"
+msgstr "Go Pro with Menu Cart Pro. Includes all the great standard features found in this free version plus:"
+
+#: includes/wpmenucart-settings.php:351
+msgid "Sell In Style With Menu Cart Pro!"
+msgstr "Sell In Style With Menu Cart Pro!"
+
+#: includes/wpmenucart-settings.php:338
+msgid "Top Notch Support"
+msgstr "Top Notch Support"
+
+#: includes/wpmenucart-settings.php:337
+msgid "Access to Shortcode"
+msgstr "Access to Shortcode"
+
+#: includes/wpmenucart-settings.php:336
+msgid "Choice of 14 icons"
+msgstr "Choice of 14 icons"
+
+#: includes/wpmenucart-settings.php:335
+msgid "Unlimited Menus"
+msgstr "Unlimited Menus"
+
+#: includes/wpmenucart-settings.php:312
+msgid "WP Menu Cart"
+msgstr "WP Menu Cart"
+
+#: includes/wpmenucart-settings.php:259
+msgid "Settings"
+msgstr "Settings"
+
+#: includes/wpmenucart-settings.php:247
+msgid "Menu Cart Setup"
+msgstr "Menu Cart Setup"
+
+#: includes/wpmenucart-settings.php:246 includes/wpmenucart-settings.php:689
+msgid "Menu Cart"
+msgstr "Menu Cart"
+
+#: includes/wpmenucart-settings.php:220
+msgid "Enable this option to use the built-in AJAX / live update functions instead of the default ones from WooCommerce or Jigoshop"
+msgstr "Enable this option to use the built-in AJAX / live update functions instead of the default ones from WooCommerce or Jigoshop."
+
+#: includes/wpmenucart-settings.php:213
+msgid "Use Built-in AJAX"
+msgstr "Use Built-in AJAX"
+
+#: includes/wpmenucart-settings.php:199
+msgid "Use WPML String Translation"
+msgstr "Use WPML String Translation"
+
+#: includes/wpmenucart-settings.php:185
+msgid "Enter a custom CSS class (optional)"
+msgstr "Enter a custom CSS class (optional)"
+
+#: includes/wpmenucart-settings.php:178
+msgid "Default Menu Alignment."
+msgstr "Default Menu Alignment."
+
+#: includes/wpmenucart-settings.php:177
+msgid "Align Right."
+msgstr "Align Right."
+
+#: includes/wpmenucart-settings.php:176
+msgid "Align Left."
+msgstr "Align Left."
+
+#: includes/wpmenucart-settings.php:168
+msgid "Select the alignment that looks best with your menu."
+msgstr "Select the alignment that looks best with your menu."
+
+#: includes/wpmenucart-settings.php:161
+msgid "Both price and items."
+msgstr "Both price and items."
+
+#: includes/wpmenucart-settings.php:160
+msgid "Price Only."
+msgstr "Price Only."
+
+#: includes/wpmenucart-settings.php:159
+msgid "Items Only."
+msgstr "Items Only."
+
+#: includes/wpmenucart-settings.php:151
+msgid "What would you like to display in the menu?"
+msgstr "What would you like to display in the menu?"
+
+#: includes/wpmenucart-settings.php:122
+msgid "Choose a cart icon."
+msgstr "Choose a cart icon."
+
+#: includes/wpmenucart-settings.php:96
+msgid "Set maximum number of products to display in fly-out"
+msgstr "Set maximum number of products to display in fly-out"
+
+#: includes/wpmenucart-settings.php:83
+msgid "Display cart contents in menu fly-out."
+msgstr "Display cart contents in menu fly-out."
+
+#: includes/wpmenucart-settings.php:71
+msgid "Display shopping cart icon."
+msgstr "Display shopping cart icon."
+
+#: includes/wpmenucart-settings.php:59
+msgid "Always display cart, even if it's empty"
+msgstr "Always display cart, even if it's empty"
+
+#: includes/wpmenucart-settings.php:46
+msgid "Select the menu(s) in which you want to display the Menu Cart"
+msgstr "Select the menu(s) in which you want to display the Menu Cart"
+
+#: includes/wpmenucart-settings.php:33
+msgid "Select which e-commerce plugin you would like Menu Cart to work with"
+msgstr "Select which e-commerce plugin you would like Menu Cart to work with"
+
+#: includes/wpmenucart-settings.php:26
+msgid "Plugin settings"
+msgstr "Plugin settings"
+
+#: includes/wpmenucart-eshop.php:40
+msgid "2"
+msgstr "2"
+
+#: includes/wpmenucart-eshop.php:40
+msgid "%1$s%2$s"
+msgstr "%1$s%2$s"
