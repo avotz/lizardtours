@@ -56,7 +56,13 @@ get_header('shop'); ?>
 												    	
 												    woocommerce_template_loop_price(); 
 												    ?>
-													<div class="per-person">per person</div>
+													<?php if($post->ID != 491 && $post->ID != 473) :?>
+														<div class="per-person">per adult</div>
+													<?php endif ?>
+
+													<?php /*echo $product->get_price_html(); */?>
+													<div class="per-person"><?php echo get_post_meta( get_the_ID(), 'custom_price_label', true ); ?><br><?php echo get_post_meta( get_the_ID(), 'custom_price_individual', true ); ?></div>
+													
 												
 												<?php woocommerce_template_loop_add_to_cart(); ?>     
 												<?php 
