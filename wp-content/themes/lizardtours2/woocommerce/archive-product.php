@@ -66,9 +66,9 @@ get_header('shop'); ?>
 												
 												<?php woocommerce_template_loop_add_to_cart(); ?>     
 												<?php 
-
+													$product = new WC_Product( $post->ID );
 													echo apply_filters( 'woocommerce_loop_add_to_cart_link',
-													    sprintf( '<a href="%s" rel="nofollow" data-product_id="%s" data-product_sku="%s" class="button %s product_type_%s">%s</a>',
+													    sprintf( '<a href="%s" rel="nofollow" data-product_id="%s" data-product_sku="%s" class="button %s product_type_%s readmore">%s</a>',
 													        esc_url( $product->add_to_cart_url() ),
 													        esc_attr( $product->id ),
 													        esc_attr( $product->get_sku() ),
