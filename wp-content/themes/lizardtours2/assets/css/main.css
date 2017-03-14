@@ -1100,6 +1100,7 @@ iframe {
 .intro__banner {
   width: 100%;
   position: relative;
+  display: none;
 }
 .intro__banner img {
   position: relative;
@@ -1140,6 +1141,12 @@ iframe {
 }
 .intro__featured {
   position: relative;
+}
+.intro__featured__title {
+  text-align: center;
+  margin-bottom: 0;
+  color: #fff;
+  background-color: #549e51;
 }
 .intro__featured #scroll-down {
   position: absolute;
@@ -1211,8 +1218,7 @@ iframe {
 .intro__featured__item__title {
   position: absolute;
   right: 0;
-  bottom: 1.5rem;
-  background: rgba(0,0,0,0.65);
+  bottom: 0;
   color: #fff;
   z-index: 2;
   padding: 0.5rem;
@@ -1228,6 +1234,14 @@ iframe {
   width: 100%;
   height: 100%;
   z-index: 2;
+}
+@media screen and (min-width: 640px) {
+  .intro__banner {
+    display: block;
+  }
+  .intro__featured__title {
+    display: none;
+  }
 }
 @media screen and (min-width: 900px) {
   .intro {

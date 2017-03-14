@@ -387,6 +387,7 @@ iframe
 	&__banner 
 		width 100%
 		position relative
+		display none
 		img
 			position relative
 			z-index 0 
@@ -421,6 +422,11 @@ iframe
 				color #222
 	&__featured
 		position relative
+		&__title
+			text-align center
+			margin-bottom 0
+			color white
+			background-color verde
 		#scroll-down
 			position absolute
 			bottom 1rem
@@ -468,8 +474,8 @@ iframe
 			&__title
 				position absolute
 				right 0
-				bottom 1.5rem
-				background rgba(0, 0, 0, .65)
+				bottom 0//1.5rem
+				//background rgba(0, 0, 0, .65)
 				color white
 				z-index 2
 				padding .5rem
@@ -484,7 +490,14 @@ iframe
 				width 100%
 				height 100%
 				z-index 2
-	
+@media screen and (min-width:640px)
+	.intro
+		&__banner
+			display block
+		&__featured
+			&__title
+				display none
+			
 @media screen and (min-width:900px)
 	.intro
 		overflow hidden

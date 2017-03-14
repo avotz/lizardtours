@@ -47,6 +47,7 @@ get_header(); ?>
                         </div>          
                     </div>
                     <div class="intro__featured">
+                        <h1 class="intro__featured__title">Our Tours</h1>
                         <div id="scroll-down">
                             <a href="#"><i class="fa fa-angle-down"></i></a>
                             <small>Scroll Down</small>
