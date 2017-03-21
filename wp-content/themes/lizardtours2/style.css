@@ -1184,7 +1184,7 @@ iframe {
   -o-animation-iteration-count: infinite;
   -ms-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  font-size: 25px;
+  font-size: 24px;
 }
 .intro__featured #scroll-down small {
   font-size: 12px;
