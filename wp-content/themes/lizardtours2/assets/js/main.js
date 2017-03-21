@@ -271,7 +271,13 @@ var $btnMenu = $('#btn-menu'),
               $('.header').removeClass("header--fixed");
           }
       });*/
-
+    $(".nano").bind("scrollend", function(e){
+        $('#scroll-down').find('i').removeClass('fa-angle-down').addClass('fa-angle-up');
+    });
+    $(".nano").bind("scrolltop", function(e){
+        $('#scroll-down').find('i').removeClass('fa-angle-up').addClass('fa-angle-down');
+    });
+    
     
 
     $(window).load(function() {
