@@ -736,17 +736,24 @@ iframe
 			border-bottom 2px solid verde
 			padding 1rem
 		.products
-			display flex
+			display block
 			flex-wrap wrap
 			justify-content space-between
 			
 			.tours-item
 				text-align center
+				margin-bottom 1rem
 				.woocommerce-LoopProduct-link
 					color azul
 				h3
 					margin-bottom 5px
 					
+@media screen and (min-width:1000px)		
+	.woocommerce
+		.related
+			.products
+				display flex
+				
 .wc-bookings-booking-form
 	position relative		
 	.form-field
@@ -798,6 +805,9 @@ iframe
 		left 1rem
 	.owl-next
 		right 1rem
+.woocommerce #content div.product div.images, .woocommerce #content div.product div.summary, .woocommerce div.product div.images, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.images, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.images, .woocommerce-page div.product div.summary
+	padding 0 1rem
+	
 .woocommerce div.product div.images, .woocommerce div.product div.summary
 	>h1 
 		padding-top 2rem

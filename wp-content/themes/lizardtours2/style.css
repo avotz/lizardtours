@@ -1561,12 +1561,7 @@ iframe {
   padding: 1rem;
 }
 .woocommerce .related .products {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: box;
-  display: flex;
+  display: block;
   -webkit-box-lines: multiple;
   -moz-box-lines: multiple;
   -o-box-lines: multiple;
@@ -1582,12 +1577,23 @@ iframe {
 }
 .woocommerce .related .products .tours-item {
   text-align: center;
+  margin-bottom: 1rem;
 }
 .woocommerce .related .products .tours-item .woocommerce-LoopProduct-link {
   color: #4570b2;
 }
 .woocommerce .related .products .tours-item h3 {
   margin-bottom: 5px;
+}
+@media screen and (min-width: 1000px) {
+  .woocommerce .related .products {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+  }
 }
 .wc-bookings-booking-form {
   position: relative;
@@ -1661,6 +1667,16 @@ iframe {
 }
 .tour-carousel .owl-next {
   right: 1rem;
+}
+.woocommerce #content div.product div.images,
+.woocommerce #content div.product div.summary,
+.woocommerce div.product div.images,
+.woocommerce div.product div.summary,
+.woocommerce-page #content div.product div.images,
+.woocommerce-page #content div.product div.summary,
+.woocommerce-page div.product div.images,
+.woocommerce-page div.product div.summary {
+  padding: 0 1rem;
 }
 .woocommerce div.product div.images >h1,
 .woocommerce div.product div.summary >h1 {
