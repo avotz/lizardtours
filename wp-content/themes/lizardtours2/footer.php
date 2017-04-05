@@ -18,6 +18,7 @@
             <div class="counter">
                 <a href="https://info.flagcounter.com/PeG5"><img src="https://s10.flagcounter.com/countxl/PeG5/bg_D1DCFF/txt_305EC9/border_6388FF/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
             </div>
+            <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=cgu0f8z4fS3l0empwLV86fXxGhaw2qHKHlCg6bMe3E9nfotCuhL2CY9IVuTE"></script></span>
         </div>
         
         <div class="footer__social">
