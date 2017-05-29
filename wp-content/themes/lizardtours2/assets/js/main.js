@@ -116,7 +116,7 @@ var $btnMenu = $('#btn-menu'),
           
           $.ajax({
                 type: 'GET',
-                url: '/api/taxonomy/get_taxonomy_posts/?taxonomy=product_cat&slug='+ selectedCategory+'&per_page=-1',//'/api/get_posts/?post_type=tour&count=-1',
+                url: '/api/taxonomy/get_taxonomy_posts/?taxonomy=product_cat&count=-1&slug='+ selectedCategory,//'/api/get_posts/?post_type=tour&count=-1',
                 
                 success: function(data){
                    //console.log(data)
